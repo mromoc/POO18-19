@@ -1,0 +1,27 @@
+.- No puede contener elementos duplicados. 
+.- Es necesario que tenga implementada, de forma correcta, los métodos equals y hashCode(La clase Set). 
+
+
+
+Permiten Buscar con : 
+set.contains();
+y remover con:
+set.remove();
+
+HashSet: 
+.- No garantiza ningún orden. 
+.- No Permite duplicados.
+.- Almacena los elementos en una tabla hash. 
+.- Mejor rendimiento de todas. 
+
+TreeSet: 
+.- Orden por valor implementa la interfaz Comparable.
+.- No Permite duplicados
+.- Más lento que HashSet. 
+.- Garantiza, siempre, un rendimiento de log(N).
+
+
+LinkedHashSet: 
+.- Orden de inserción.
+.- No permite duplicados. 
+.- Un poco más costosa que HashSet.

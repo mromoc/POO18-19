@@ -1,0 +1,30 @@
+.- La interfaz List define una sucesión de elementos. 
+.- Admite elementos duplicados.
+
+ Acceso posicional a elementos: manipula elementos en función de su posición en la lista.
+ Búsqueda de elementos: busca un elemento concreto de la lista y devuelve su posición.
+ Iteración sobre elementos: mejora el Iterator por defecto.
+ Rango de operación: permite realizar ciertas operaciones sobre ragos de elementos dentro de la propia lista
+
+
+ArrayList:
+.- Mantiene un orden de insercion. 
+.- Permite Duplicados.
+.- Se basa en un array redimensionable que aumenta su tamaño según crece la colección de elementos. 
+.- Manipulacion con ArrayList es mas lenta que LinkedList
+
+Mejor para Almacenar y Acceder.
+
+LinkedList: 
+.- Mantiene un orden de insercion.
+.- Permite duplicados.
+.- Se basa en una lista doblemente enlazada de los elementos
+.- Manipulacion con LinkedList es mas rapida que ArrayList
+
+Mejor para Manipular.
+
+tiene la facultad de 
+agregar en una posicion especifica.
+agregar al final
+agregar al inicio
+retornar primero y ultimo

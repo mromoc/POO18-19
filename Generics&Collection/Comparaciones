@@ -1,0 +1,14 @@
+HashSet v/s TreeSet
+
+.- HashSet ofrece mejor renidimiento que TreeSet.
+.- HashSet no tene orden, TreeSet si (Ascendente).
+.- Ni HashSet ni TreeSet contienen duplicados.
+.- Si se desea un conjunto ordenado es mejor agregar a HashSet y luego convertirlo a TreeSet.
+
+List v/s Set
+
+.- List tiene orden de insercion, Set no tiene orden a excepcion de LinkedHashSet
+.- List Permite duplicados, Set no permite.
+.- List permite nulos, Set solo 1.
+.- Si se desea tener solo valores unicos, debe optar por Set.
+.- Si desea tener orden de insercion, debe optar por List.

@@ -1,0 +1,7 @@
+El objetivo de los Genericos es:
+
+.- Mejorar la deteccion de errores.(Detectando en tiempo de compilacion)
+.- Evitar conversiones forzosa. String s = (String) list.get(0);
+.- Disminuir los errores.
+.- Mejorar la eficacia.
+.- Si intenta agregar otro tipo de objeto, genera un error de tiempo de compilación.

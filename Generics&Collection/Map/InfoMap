@@ -1,0 +1,23 @@
+.- La interfaz Map asocia claves a valores. 
+.- No puede contener claves duplicadas pero si valores.. 
+.- Cada clave sólo puede tener asociado un valor como máximo.
+
+
+HashMap: 
+.- No garantiza ningún orden.
+.- No contiene claves duplicadas, las modifica.
+.- almacena las claves en una tabla hash. 
+.- HashMap es la implementación con mejor rendimiento, pero en algunas ocasiones podemos decidir renunciar a este rendimiento a favor de cierta funcionalidad como el orden de sus elementos.
+
+
+TreeMap:
+.- Orden por Valor implementa la interfaz Comparable; 
+.- No contiene claves duplicadas, las modifica.
+.- Es bastante más lento que HashMap. 
+.- Garantiza, siempre, un rendimiento de log(N) en las operaciones básicas.
+
+LinkedHashMap: 
+.- Orden de inserción. 
+.- No contiene claves duplicadas, las modifica.
+.- Es un poco más costosa que HashMap.
+
